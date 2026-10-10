@@ -1,0 +1,10 @@
+resource,used,available,utilisation_pct
+LUT,87432,218600,40.0
+FF,92118,437200,21.1
+DSP48E1,187,900,20.8
+BRAM_36k,312,545,57.2
+UltraRAM,16,32,50.0
+Fmax_mhz_nominal,207,,
+power_fpga_W,2.31,,
+power_axi_io_W,0.53,,
+power_dsp_W,1.78,,

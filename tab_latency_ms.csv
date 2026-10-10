@@ -1,0 +1,11 @@
+method,latency_ms,headroom_ms
+EKF,2.91,2.09
+Static,4.8,0.2
+LSTM,7.12,-2.12
+GAT,5.0,0.0
+PF_KF,5.6,-0.6
+GATv2,5.3,-0.3
+RobustMM,9.4,-4.4
+ProbGNN,6.8,-1.8
+Transformer,8.2,-3.2
+Ours,3.2,1.8

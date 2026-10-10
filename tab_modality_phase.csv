@@ -1,0 +1,9 @@
+phase,w_camera,w_thermal,w_sonar,w_imu,w_gnss_mag,dominant
+Open-air approach,0.36,0.08,0.04,0.24,0.28,clear vision and GNSS
+Descent with spray,0.21,0.12,0.08,0.34,0.25,camera entropy rises
+Impact window,0.09,0.1,0.24,0.43,0.14,IMU and sonar survive
+Underwater cruise,0.02,0.06,0.48,0.35,0.09,sonar geometry available
+Harbour inspection,0.14,0.18,0.39,0.24,0.05,sonar/thermal complementarity
+Ascent recovery,0.23,0.14,0.21,0.27,0.15,gradual graph reconnection
+High-speed dive,0.18,0.06,0.32,0.29,0.15,IMU dominant during maneuver
+Loiter phase,0.31,0.11,0.12,0.22,0.24,camera and GNSS stable

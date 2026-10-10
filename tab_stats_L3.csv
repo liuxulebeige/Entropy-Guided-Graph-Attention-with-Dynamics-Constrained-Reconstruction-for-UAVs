@@ -1,0 +1,8 @@
+comparison,delta_mean,p_paired_t,p_wilcoxon,cohens_d
+Ours vs EKF,-1.73,<1e-9,<1e-8,4.21
+Ours vs Static,-1.2,<1e-7,<1e-6,2.15
+Ours vs LSTM,-0.83,<1e-5,<1e-4,1.82
+Ours vs GAT,-0.65,<1e-4,<1e-3,1.41
+Ours vs RobustMM,-0.43,<0.002,0.004,0.83
+Ours vs ProbGNN,-0.56,<0.001,0.002,1.05
+Ours vs Transformer,-0.69,<1e-3,0.001,1.22

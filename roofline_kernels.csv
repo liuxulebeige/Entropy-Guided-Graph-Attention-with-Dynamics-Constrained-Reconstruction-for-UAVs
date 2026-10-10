@@ -1,0 +1,129 @@
+kernel,mach_per_byte,throughput_gmac_s
+FPGA roof,0.1,0.79
+FPGA roof,0.153,1.11
+FPGA roof,0.233,1.56
+FPGA roof,0.356,2.19
+FPGA roof,0.543,3.07
+FPGA roof,0.829,4.3
+FPGA roof,1.265,6.03
+FPGA roof,1.931,8.46
+FPGA roof,2.947,11.87
+FPGA roof,4.498,16.65
+FPGA roof,6.866,23.35
+FPGA roof,10.481,32.76
+FPGA roof,15.999,45.94
+FPGA roof,24.421,64.44
+FPGA roof,37.276,90.39
+FPGA roof,56.899,126.78
+FPGA roof,86.851,177.82
+FPGA roof,100.0,199.05
+GAT core,0.1,0.79
+GAT core,0.153,1.11
+GAT core,0.233,1.56
+GAT core,0.356,2.19
+GAT core,0.543,3.07
+GAT core,0.829,4.3
+GAT core,1.265,6.03
+GAT core,1.931,8.46
+GAT core,2.947,11.87
+GAT core,4.498,16.65
+GAT core,6.866,23.35
+GAT core,10.481,32.76
+GAT core,15.999,45.94
+GAT core,24.421,64.44
+GAT core,37.276,90.39
+GAT core,56.899,126.78
+GAT core,86.851,142.0
+GAT core,100.0,142.0
+Entropy,0.1,4.77
+Entropy,0.153,7.1
+Entropy,0.233,10.47
+Entropy,0.356,15.21
+Entropy,0.543,18.0
+Entropy,0.829,4.77
+Entropy,1.265,7.1
+Entropy,1.931,10.47
+Entropy,2.947,15.21
+Entropy,4.498,18.0
+Entropy,6.866,18.0
+Entropy,10.481,18.0
+Entropy,15.999,18.0
+Entropy,24.421,18.0
+Entropy,37.276,18.0
+Entropy,56.899,18.0
+Entropy,86.851,18.0
+Entropy,100.0,18.0
+EKF/UKF,0.1,1.9
+EKF/UKF,0.153,2.84
+EKF/UKF,0.233,4.17
+EKF/UKF,0.356,6.04
+EKF/UKF,0.543,8.54
+EKF/UKF,0.829,11.72
+EKF/UKF,1.265,15.5
+EKF/UKF,1.931,19.65
+EKF/UKF,2.947,23.83
+EKF/UKF,4.498,27.69
+EKF/UKF,6.866,30.98
+EKF/UKF,10.481,33.59
+EKF/UKF,15.999,35.56
+EKF/UKF,24.421,36.97
+EKF/UKF,37.276,37.96
+EKF/UKF,56.899,38.64
+EKF/UKF,86.851,39.1
+EKF/UKF,100.0,39.22
+Graph build,0.1,22.26
+Graph build,0.153,23.0
+Graph build,0.233,24.1
+Graph build,0.356,25.7
+Graph build,0.543,28.0
+Graph build,0.829,31.19
+Graph build,1.265,35.0
+Graph build,1.931,35.0
+Graph build,2.947,35.0
+Graph build,4.498,35.0
+Graph build,6.866,35.0
+Graph build,10.481,35.0
+Graph build,15.999,35.0
+Graph build,24.421,35.0
+Graph build,37.276,35.0
+Graph build,56.899,35.0
+Graph build,86.851,35.0
+Graph build,100.0,35.0
+Attn softmax,0.1,18.13
+Attn softmax,0.153,26.31
+Attn softmax,0.233,37.25
+Attn softmax,0.356,50.9
+Attn softmax,0.543,66.23
+Attn softmax,0.829,80.93
+Attn softmax,1.265,92.03
+Attn softmax,1.931,97.9
+Attn softmax,2.947,99.72
+Attn softmax,4.498,99.99
+Attn softmax,6.866,100.0
+Attn softmax,10.481,100.0
+Attn softmax,15.999,100.0
+Attn softmax,24.421,100.0
+Attn softmax,37.276,100.0
+Attn softmax,56.899,100.0
+Attn softmax,86.851,100.0
+Attn softmax,100.0,100.0
+Preprocess,0.1,2.25
+Preprocess,0.2,3.3
+Preprocess,0.5,5.46
+Preprocess,1,8.0
+Preprocess,2,11.71
+Preprocess,5,19.39
+Preprocess,10,28.39
+Preprocess,20,41.56
+Preprocess,50,55.0
+Preprocess,100,55.0
+Output DMA,0.1,4.78
+Output DMA,0.2,6.3
+Output DMA,0.5,9.09
+Output DMA,1,12.0
+Output DMA,2,15.83
+Output DMA,5,22.84
+Output DMA,10,25.0
+Output DMA,20,25.0
+Output DMA,50,25.0
+Output DMA,100,25.0

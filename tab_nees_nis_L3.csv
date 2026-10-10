@@ -1,0 +1,7 @@
+method,nees_mean,nees_std,nis_mean,divergence_of_20
+EKF,41.2,8.5,28.7,13
+Static,33.5,7.2,24.1,9
+GATv2,22.4,5.1,16.9,4
+RobustMM,19.8,4.8,15.7,4
+ProbGNN,18.6,,14.3,3
+Ours,12.6,3.2,10.8,0

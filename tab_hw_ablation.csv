@@ -1,0 +1,7 @@
+deployment,split,latency_ms,power_w,rmse_drift,determinism
+DSP only,C6678 / C6678,8.9,5.1,0%,high
+FPGA only,Zynq fabric / Zynq soft core,4.6,5.4,1.2%,high
+Embedded GPU,CUDA cores / CPU,5.8,9.7,0%,medium
+"DSP+FPGA, 8-bit",GAA / C6678,2.7,4.1,4.9%,high
+"DSP+FPGA, 16-bit",GAA / C6678,3.2,4.6,1.8%,high
+"DSP+FPGA, 32-bit",GAA-64bit / C6678,3.8,5.2,0.3%,high

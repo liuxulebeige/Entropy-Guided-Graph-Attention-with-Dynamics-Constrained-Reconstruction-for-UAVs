@@ -1,0 +1,4 @@
+corner,temp_vcc,fmax_mhz,fusion_tick_ms,margin_pct,budget_headroom_pct
+fast,-40C / 1.05V,224,3.02,40,39.6
+nominal,25C / 1.00V,207,3.2,36,36.0
+slow,85C / 0.95V,189,3.51,30,29.8

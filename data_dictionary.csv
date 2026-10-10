@@ -1,0 +1,68 @@
+subdir,file,column,type,unit,description
+tables,mc_runs.csv,method,str,-,method id from METHODS list
+tables,mc_runs.csv,method_id,str,-,B1..B9/OURS label
+tables,mc_runs.csv,level,str,-,L0..L3 (incl. L1.5/L2.5)
+tables,mc_runs.csv,seed,int,-,base(level)+j
+tables,mc_runs.csv,rmse_pos_m,float,m,window-integrated position RMSE
+tables,mc_runs.csv,rmse_att_deg,float,deg,attitude RMSE
+tables,mc_runs.csv,per_pct,float,%,perception error rate
+tables,mc_runs.csv,dur_pct,float,%,data-usage rate
+tables,mc_runs.csv,nees,float,-,normalised estimation error squared
+tables,mc_runs.csv,nis,float,-,normalised innovation squared
+tables,mc_runs.csv,diverged,int,-,1 if run diverged (excluded from RMSE mean)
+tables,mc_runs.csv,peak_m,float,m,transition peak error
+tables,mc_runs.csv,recovery_s,float,s,recovery time
+tables,mc_runs.csv,fallback_frac,float,-,fallback activation fraction
+tables,tab_main_results.csv,rmse_mean_m / rmse_std_m,float,m,mean/std over 20 surviving runs
+tables,tab_nees_nis_L3.csv,divergence_of_20,int,runs,divergence count out of 20
+tables,tab_stats_L3.csv,p_paired_t,str,-,paired t-test p-value
+tables,tab_stats_L3.csv,cohens_d,float,-,effect size
+tables,tab_fallback_stress.csv,fallback_rate,float,frac,mean fallback activation rate
+tables,tab_fallback_stress.csv,divergence_of_20,int,runs,divergences out of 20
+tables,tab_fallback_stress.csv,mean_rmse_m,float,m,mean RMSE under failure case
+tables,tab_harbor_rmse.csv,rmse_mean_m,float,m,Harbor-Inspect mean RMSE
+tables,tab_hw_ablation.csv,latency_ms,float,ms,end-to-end fusion tick
+tables,tab_hw_ablation.csv,power_w,float,W,total power
+tables,tab_entropy_sens.csv,ece_H,float,-,calibration error of entropy gate
+tables,tab_modality_phase.csv,w_*,float,frac,normalised gate weight per modality
+hardware,pvt_corners.csv,fmax_mhz,float,MHz,post-route Fmax
+hardware,pvt_corners.csv,fusion_tick_ms,float,ms,tick at corner
+hardware,pvt_corners.csv,margin_pct,float,%,margin to 5 ms budget
+hardware,fpga_resources.csv,utilisation_pct,float,%,resource utilisation
+hardware,latency_1000ticks.csv,latency_ms,float,ms,"per-tick latency, 1000-tick replay"
+hardware,roofline_kernels.csv,mach_per_byte,float,MAC/B,operating intensity
+hardware,roofline_kernels.csv,throughput_gmac_s,float,GMAC/s,observed throughput
+hardware,scalability_N.csv,N,int,nodes,graph size
+hardware,scalability_N.csv,ticks_per_s,float,Hz,sustained tick rate
+figures,errdist_ecdf_L3.csv,err_m,float,m,error bin edge
+figures,errdist_ecdf_L3.csv,cdf,float,frac,empirical CDF value
+figures,calibration_curves.csv,predicted,float,frac,predicted reliability
+figures,calibration_curves.csv,empirical_or_value,float,frac/score,empirical reliability or score
+figures,training_loss.csv,loss,float,-,per-epoch training loss
+figures,fisher_contraction.csv,excess_entropy,float,nats,H - tau
+figures,fisher_contraction.csv,spectral_ratio,float,-,lambda_max(J)/lambda_max(0)
+figures,entropy_heat_events.csv,H_nats,float,nats,"node entropy, clipped [0.1,4.0]"
+figures,graph_evolution.csv,t_rel_s,float,s,time relative to impact
+figures,graph_evolution.csv,total_edges,int,edges,active edge count
+figures,sens_sweeps.csv,rmse_m,float,m,L3 RMSE at swept value
+raw,trial_manifest.json,n_trials,int,-,number of shipped raw trials
+raw,trial_manifest.json,medium_timeline,list,s,"[(t0,t1,regime)] regime in air/splash/water"
+raw,trial_manifest.json,interference_params,obj,-,generator params from Table noisegenapp
+raw/trials,*.csv,time_s,float,s,log time (10 Hz)
+raw/trials,*.csv,H,float,nats,"node Shannon entropy, clipped [0.05,4.0]"
+raw/trials,*.csv,H_alpha2,float,nats,order-2 Renyi entropy
+raw/trials,*.csv,I_avg,float,nats,mean mutual information
+raw/trials,*.csv,gate,float,frac,sigmoid gate g_i
+raw/trials,*.csv,chi,int,-,availability flag
+raw/trials,*.csv,s_x..v_z,float,m/m*s/deg,true 6-DoF state
+runs/l3,mc_runs_L3.csv,sample,int,-,error sample index
+runs/l3,mc_runs_L3.csv,err_m,float,m,single position-error sample
+runs/l3,l3_traces.csv,err_m,float,m,per-tick position error
+runs/l3,l3_traces.csv,H_V1..H_G1,float,nats,node entropies (5 shown)
+runs/l3,l3_traces.csv,|E|,int,edges,graph edge count
+runs/l3,l3_traces.csv,g_cam/g_son/g_imu,float,frac,modality gates
+runs/l3,l3_traces.csv,nees_t,float,-,per-tick NEES
+runs/l3,l3_traces.csv,nis_t,float,-,per-tick NIS
+runs/l3,l3_traces.csv,fallback,int,-,fallback flag
+runs/transition,transition_traces.csv,time_s,float,s,recovery window time
+runs/transition,transition_traces.csv,err_m,float,m,position error trace

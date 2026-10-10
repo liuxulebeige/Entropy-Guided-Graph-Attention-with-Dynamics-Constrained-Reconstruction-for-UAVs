@@ -1,0 +1,6 @@
+method_or_bound,decay_tau_s
+EKF,1.32
+GAT,0.87
+RobustMM,0.74
+Ours,0.41
+bound,0.45
